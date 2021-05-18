@@ -18,11 +18,17 @@
         app:srcCompat="@drawable/venda_facil_logo" />
 
     <Button
-        android:id="@+id/botao_lista_produto"
+        android:id="@+id/botao_lista_anuncio"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Lista de Produtos" />
+        android:text="Lista de Anuncios" />
+
+    <Button
+        android:id="@+id/botao_cadastrar_anuncio"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Anuncio" />
 
     <Button
         android:id="@+id/botao_sobre"

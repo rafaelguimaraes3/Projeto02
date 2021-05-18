@@ -21,8 +21,6 @@ public class ListaProdutos extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
     }
-    public void telaInicial (View view){
 
-    }
 
 }
