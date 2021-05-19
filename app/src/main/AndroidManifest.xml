@@ -2,6 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rafael.guimaraes.projeto02">
 
+    //recursos necessários true=obrigado ter a camera
+
+    <uses-feature android:name="android.hardware.camera2"
+        android:required="true"
+        />
+
+
+    //permissões da câmera
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+
+
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
